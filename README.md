@@ -30,7 +30,7 @@ Los datos se almacenan en formato CSV mediante un flujo automatizado de **GitHub
 
 ## 🗓️ Ejemplo de archivo generado
 
-data/mip_odds_2025_10_24.csv
+euroleage_injuryreport_2025_10_28.csv
 
 Cada archivo contiene los datos del Injury Report de la Euroleague en el momento en que fueron extraídos, junto con la fecha correspondientes.
 
