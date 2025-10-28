@@ -3,7 +3,7 @@ name: Extraer Injury Report Euroleague
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 8 * * *'
+    - cron: '30 22 * * *'
 
 jobs:
   Get-NBA-MVP-Odds:
@@ -44,7 +44,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add data/*.csv
-          git diff --cached --quiet || git commit -m "Auto-update: mvp odds"
+          git diff --cached --quiet || git commit -m "Auto-update: Injuey Euroleague Report"
         shell: bash
 
       - name: Push changes
