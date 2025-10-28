@@ -36,7 +36,7 @@ jobs:
           packages: jsonlite, dplyr
           
       - name: Run R update script
-        run: Rscript injuryrport_euroleague_2026.R
+        run: Rscript injuryrport_euroleague.R
         shell: bash
 
       - name: Commit changes in data folder
