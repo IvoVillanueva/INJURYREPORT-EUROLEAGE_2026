@@ -5,7 +5,7 @@ library(jsonlite) # for getting data
 today <- Sys.Date() 
 
 # ensure data output folder exists
-if (!dir.exists("2026/euroleague_rotoworld/data")) dir.create("2026/euroleague_rotoworld/data")
+if (!dir.exists("data")) dir.create("data")
 
 # url for getting mvp odds from rotowire
 url <- "https://www.rotowire.com/euro/tables/injury-report.php?team=ALL&pos=ALL"
