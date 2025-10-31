@@ -1,6 +1,6 @@
 # 🏀 Rotowire INJURY REPORT EUROLEAGUE
 
-Este repositorio **recopila y archiva automáticamente el injury report **Euroleague** publicadas por [RotoWire](https://www.rotowire.com/euro/injury-report.php).  
+Este repositorio **recopila y archiva** automáticamente el injury report **Euroleague** publicadas por [RotoWire](https://www.rotowire.com/euro/injury-report.php).  
 Los datos se almacenan en formato CSV mediante un flujo automatizado de **GitHub Actions**.
 
 ---
